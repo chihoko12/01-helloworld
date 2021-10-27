@@ -26,7 +26,7 @@ class Customer {
 }
 
 // create an instance
-let myCustomer = new Customer("Martin","Dixon");
+let myCustomer = new Customer("Martin", "Dixon");
 
 myCustomer.firstName = "Martin";
 //myCustomer.lastName = "Dixon";
