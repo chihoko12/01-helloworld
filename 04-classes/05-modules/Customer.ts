@@ -1,4 +1,4 @@
-class Customer {
+export class Customer {
 
 // parameter properties shortcut
   constructor(private _firstName: string, private _lastName: string) {
@@ -20,9 +20,3 @@ class Customer {
   }
 
 }
-
-// create an instance
-let myCustomer = new Customer("Martin","Dixon");
-
-console.log(myCustomer.firstName);
-console.log(myCustomer.lastName);
