@@ -9,7 +9,7 @@ for (let i=0; i < sportsOne.length; i++) {
 for (let tempSport of sportsOne) {
 
   if (tempSport == "Cricket") {
-    console.log(tempSport + "<<My favorite");
+    console.log(tempSport + "<< My favorite");
   } else {
     console.log(tempSport);
   }
